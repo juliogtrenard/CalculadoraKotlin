@@ -105,4 +105,174 @@
         app:layout_constraintGuide_percent="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn0"
+        android:text="@string/buttonCero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer1"
+        app:layout_constraintBottom_toTopOf="@id/gHor1"
+        app:layout_constraintTop_toBottomOf="@id/gHor2"
+        app:layout_constraintEnd_toStartOf="@id/gVer3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnComa"
+        android:text="@string/buttonComma"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer3"
+        app:layout_constraintBottom_toTopOf="@id/gHor1"
+        app:layout_constraintTop_toBottomOf="@id/gHor2"
+        app:layout_constraintEnd_toStartOf="@id/gVer4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIgual"
+        android:text="@string/buttonEqual"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer4"
+        app:layout_constraintBottom_toTopOf="@id/gHor1"
+        app:layout_constraintTop_toBottomOf="@id/gHor2"
+        app:layout_constraintEnd_toStartOf="@id/gVer5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:text="@string/buttonOne"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer1"
+        app:layout_constraintBottom_toTopOf="@id/gHor2"
+        app:layout_constraintTop_toBottomOf="@id/gHor3"
+        app:layout_constraintEnd_toStartOf="@id/gVer2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:text="@string/buttonTwo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer2"
+        app:layout_constraintBottom_toTopOf="@id/gHor2"
+        app:layout_constraintTop_toBottomOf="@id/gHor3"
+        app:layout_constraintEnd_toStartOf="@id/gVer3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:text="@string/buttonThree"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer3"
+        app:layout_constraintBottom_toTopOf="@id/gHor2"
+        app:layout_constraintTop_toBottomOf="@id/gHor3"
+        app:layout_constraintEnd_toStartOf="@id/gVer4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn4"
+        android:text="@string/buttonFour"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer1"
+        app:layout_constraintBottom_toTopOf="@id/gHor3"
+        app:layout_constraintTop_toBottomOf="@id/gHor4"
+        app:layout_constraintEnd_toStartOf="@id/gVer2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn5"
+        android:text="@string/buttonFive"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer2"
+        app:layout_constraintBottom_toTopOf="@id/gHor3"
+        app:layout_constraintTop_toBottomOf="@id/gHor4"
+        app:layout_constraintEnd_toStartOf="@id/gVer3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn6"
+        android:text="@string/buttonSix"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer3"
+        app:layout_constraintBottom_toTopOf="@id/gHor3"
+        app:layout_constraintTop_toBottomOf="@id/gHor4"
+        app:layout_constraintEnd_toStartOf="@id/gVer4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn7"
+        android:text="@string/buttonSeven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer1"
+        app:layout_constraintBottom_toTopOf="@id/gHor4"
+        app:layout_constraintTop_toBottomOf="@id/gHor5"
+        app:layout_constraintEnd_toStartOf="@id/gVer2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn8"
+        android:text="@string/buttonEight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer2"
+        app:layout_constraintBottom_toTopOf="@id/gHor4"
+        app:layout_constraintTop_toBottomOf="@id/gHor5"
+        app:layout_constraintEnd_toStartOf="@id/gVer3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn9"
+        android:text="@string/buttonNine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer3"
+        app:layout_constraintBottom_toTopOf="@id/gHor4"
+        app:layout_constraintTop_toBottomOf="@id/gHor5"
+        app:layout_constraintEnd_toStartOf="@id/gVer4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLimpiar"
+        android:text="@string/buttonClear"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer1"
+        app:layout_constraintBottom_toTopOf="@id/gHor5"
+        app:layout_constraintTop_toBottomOf="@id/gHor6"
+        app:layout_constraintEnd_toStartOf="@id/gVer4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDivision"
+        android:text="@string/buttonDiv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer4"
+        app:layout_constraintBottom_toTopOf="@id/gHor5"
+        app:layout_constraintTop_toBottomOf="@id/gHor6"
+        app:layout_constraintEnd_toStartOf="@id/gVer5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMultiplicar"
+        android:text="@string/buttonMult"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer4"
+        app:layout_constraintBottom_toTopOf="@id/gHor4"
+        app:layout_constraintTop_toBottomOf="@id/gHor5"
+        app:layout_constraintEnd_toStartOf="@id/gVer5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMenos"
+        android:text="@string/buttonMinus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer4"
+        app:layout_constraintBottom_toTopOf="@id/gHor3"
+        app:layout_constraintTop_toBottomOf="@id/gHor4"
+        app:layout_constraintEnd_toStartOf="@id/gVer5" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMas"
+        android:text="@string/buttonPlus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/gVer4"
+        app:layout_constraintBottom_toTopOf="@id/gHor2"
+        app:layout_constraintTop_toBottomOf="@id/gHor3"
+        app:layout_constraintEnd_toStartOf="@id/gVer5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
