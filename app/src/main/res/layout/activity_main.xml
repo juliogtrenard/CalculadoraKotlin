@@ -109,6 +109,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn0"
         android:text="@string/buttonCero"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer1"
@@ -119,6 +120,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnComa"
         android:text="@string/buttonComma"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer3"
@@ -129,6 +131,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnIgual"
         android:text="@string/buttonEqual"
+        style="@style/HighlightButtonEqual"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer4"
@@ -139,6 +142,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn1"
         android:text="@string/buttonOne"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer1"
@@ -149,6 +153,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn2"
         android:text="@string/buttonTwo"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer2"
@@ -159,6 +164,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn3"
         android:text="@string/buttonThree"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer3"
@@ -169,6 +175,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn4"
         android:text="@string/buttonFour"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer1"
@@ -179,6 +186,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn5"
         android:text="@string/buttonFive"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer2"
@@ -189,6 +197,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn6"
         android:text="@string/buttonSix"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer3"
@@ -199,6 +208,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn7"
         android:text="@string/buttonSeven"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer1"
@@ -209,6 +219,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn8"
         android:text="@string/buttonEight"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer2"
@@ -219,6 +230,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn9"
         android:text="@string/buttonNine"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer3"
@@ -229,6 +241,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLimpiar"
         android:text="@string/buttonClear"
+        style="@style/NumberButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer1"
@@ -239,6 +252,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnDivision"
         android:text="@string/buttonDiv"
+        style="@style/HighlightButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer4"
@@ -249,6 +263,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnMultiplicar"
         android:text="@string/buttonMult"
+        style="@style/HighlightButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer4"
@@ -259,6 +274,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnMenos"
         android:text="@string/buttonMinus"
+        style="@style/HighlightButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer4"
@@ -269,6 +285,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnMas"
         android:text="@string/buttonPlus"
+        style="@style/HighlightButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toEndOf="@id/gVer4"

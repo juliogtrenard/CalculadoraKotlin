@@ -6,4 +6,24 @@
     </style>
 
     <style name="Theme.CalculadoraKotlin" parent="Base.Theme.CalculadoraKotlin" />
+
+    <style name="NumberButton">
+        <item name="android:background">@color/opaque_blue</item>
+        <item name="android:textColor">@color/greyish</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="HighlightButton">
+        <item name="android:background">@color/opaque_blue</item>
+        <item name="android:textColor">@color/highlight</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="HighlightButtonEqual">
+        <item name="android:background">@color/opaque_blue</item>
+        <item name="android:textColor">@color/highlight_equal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
 </resources>
