@@ -103,20 +103,23 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             binding.btn9 -> {
                 onNumberPressed("9")
             }
-            binding.btnMas -> {
-                onNumberPressed("+")
-            }
-            binding.btnMenos -> {
-                onNumberPressed("-")
-            }
             binding.btnComa -> {
                 onNumberPressed(",")
             }
+            binding.btnMas -> {
+                onOperationPressed("+")
+            }
+            binding.btnMenos -> {
+                onOperationPressed("-")
+            }
             binding.btnMultiplicar -> {
-                onNumberPressed("*")
+                onOperationPressed("*")
             }
             binding.btnDivision -> {
-                onNumberPressed("/")
+                onOperationPressed("/")
+            }
+            binding.btnIgual -> {
+                onEqualPressed()
             }
         }
     }
@@ -150,5 +153,44 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             primerNum = binding.screen.text.toString().toDouble()
         else
             segundoNum = binding.screen.text.toString().toDouble()
+    }
+
+    /**
+     * Maneja los operadores de la calculadora. Al pulsar un operador
+     * pone a cero la pantalla para que el usuario pueda meter nuevos numeros
+     */
+    private fun onOperationPressed(operacion: String) {
+        this.operacion = operacion // Ya no es nula la operacion
+        primerNum = binding.screen.text.toString().toDouble() // Coloca lo que hay en pantalla
+        binding.screen.text = "0"
+    }
+
+    /**
+     * Maneja el botón de igual
+     */
+    private fun onEqualPressed() {
+        val result = when (operacion) {
+            "+" -> primerNum + segundoNum
+            "-" -> primerNum - segundoNum
+            "*" -> primerNum * segundoNum
+            "/" -> primerNum / segundoNum
+
+            else -> 0
+        }
+
+        operacion = null
+        primerNum = result.toDouble()
+
+        try {
+            // Formatea el resultado para tener dos decimales
+            binding.screen.text = if (result.toString().endsWith(".0")) {
+                result.toString().replace(".0","")
+            } else {
+                "%.2f".format(result)
+            }
+            // En caso de division por cero
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 }
