@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CalculadoraKotlin</string>
+    <string name="app_name">Calculadora</string>
     <string name="buttonCero">0</string>
     <string name="buttonOne">1</string>
     <string name="buttonTwo">2</string>
