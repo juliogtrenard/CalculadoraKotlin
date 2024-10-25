@@ -121,6 +121,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             binding.btnIgual -> {
                 onEqualPressed()
             }
+            binding.btnLimpiar -> {
+                onClearPressed()
+            }
         }
     }
 
@@ -190,7 +193,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             // En caso de division por cero
         } catch (e: Exception) {
-            e.printStackTrace()
+            onClearPressed()
         }
+    }
+
+    /**
+     * Limpia la pantalla y resetea el primer y segundo numero
+     */
+    private fun onClearPressed() {
+        binding.screen.text = "0"
+        primerNum = 0.0
+        segundoNum = 0.0
+
     }
 }
